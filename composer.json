@@ -1,0 +1,43 @@
+{
+    "name": "stanleymsacommon/msacommon",
+    "description": ":description",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Khurram",
+            "email": "mkhurram900@gmail.com",
+            "homepage": "https://github.com/khurram900"
+        }
+    ],
+    "homepage": "https://github.com/stanleymsacommon/msacommon",
+    "keywords": ["Laravel", "MSACommon"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "StanleyMSACommon\\MSACommon\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "StanleyMSACommon\\MSACommon\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "StanleyMSACommon\\MSACommon\\MSACommonServiceProvider"
+            ],
+            "aliases": {
+                "MSACommon": "StanleyMSACommon\\MSACommon\\Facades\\MSACommon"
+            }
+        }
+    }
+}
