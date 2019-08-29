@@ -1,6 +1,6 @@
 <?php
 
-namespace StanleyMSACommon\MSACommon;
+namespace MSACommon\MSACommon;
 
 class MSACommon
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace StanleyMSACommon\MSACommon;
+namespace MSACommon\MSACommon;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,8 +13,8 @@ class MSACommonServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'stanleymsacommon');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'stanleymsacommon');
+        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'msacommon');
+        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'msacommon');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
@@ -63,17 +63,17 @@ class MSACommonServiceProvider extends ServiceProvider
 
         // Publishing the views.
         /*$this->publishes([
-            __DIR__.'/../resources/views' => base_path('resources/views/vendor/stanleymsacommon'),
+            __DIR__.'/../resources/views' => base_path('resources/views/vendor/msacommon'),
         ], 'msacommon.views');*/
 
         // Publishing assets.
         /*$this->publishes([
-            __DIR__.'/../resources/assets' => public_path('vendor/stanleymsacommon'),
+            __DIR__.'/../resources/assets' => public_path('vendor/msacommon'),
         ], 'msacommon.views');*/
 
         // Publishing the translation files.
         /*$this->publishes([
-            __DIR__.'/../resources/lang' => resource_path('lang/vendor/stanleymsacommon'),
+            __DIR__.'/../resources/lang' => resource_path('lang/vendor/msacommon'),
         ], 'msacommon.views');*/
 
         // Registering package commands.

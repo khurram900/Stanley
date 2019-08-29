@@ -1,5 +1,5 @@
 {
-    "name": "stanleymsacommon/msacommon",
+    "name": "msacommon/msacommon",
     "description": ":description",
     "license": "proprietary",
     "authors": [
@@ -9,10 +9,11 @@
             "homepage": "https://github.com/khurram900"
         }
     ],
-    "homepage": "https://github.com/stanleymsacommon/msacommon",
+    "homepage": "https://github.com/msacommon/msacommon",
     "keywords": ["Laravel", "MSACommon"],
     "require": {
-        "illuminate/support": "~5"
+        "illuminate/support": "~5",
+        "guzzlehttp/guzzle": "^6.3"
     },
     "require-dev": {
         "phpunit/phpunit": "~7.0",
@@ -21,22 +22,25 @@
         "sempro/phpunit-pretty-print": "^1.0"
     },
     "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
         "psr-4": {
-            "StanleyMSACommon\\MSACommon\\": "src/"
+            "MSACommon\\MSACommon\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "StanleyMSACommon\\MSACommon\\Tests\\": "tests"
+            "MSACommon\\MSACommon\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "StanleyMSACommon\\MSACommon\\MSACommonServiceProvider"
+                "MSACommon\\MSACommon\\MSACommonServiceProvider"
             ],
             "aliases": {
-                "MSACommon": "StanleyMSACommon\\MSACommon\\Facades\\MSACommon"
+                "MSACommon": "MSACommon\\MSACommon\\Facades\\MSACommon"
             }
         }
     }
