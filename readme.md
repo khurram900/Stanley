@@ -12,7 +12,7 @@ This is where your description should go. Take a look at [contributing.md](contr
 Via Composer
 
 ``` bash
-$ composer require msacommon/msacommon
+$ composer require stanleymsacommon/msacommon
 ```
 
 ## Usage
@@ -42,16 +42,16 @@ If you discover any security related issues, please email mkhurram900@gmail.com 
 
 ## License
 
-public. Please see the [license file](license.md) for more information.
+proprietary. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/msacommon/msacommon.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/msacommon/msacommon.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/msacommon/msacommon/master.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/stanleymsacommon/msacommon.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/stanleymsacommon/msacommon.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/stanleymsacommon/msacommon/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/msacommon/msacommon
-[link-downloads]: https://packagist.org/packages/msacommon/msacommon
-[link-travis]: https://travis-ci.org/msacommon/msacommon
+[link-packagist]: https://packagist.org/packages/stanleymsacommon/msacommon
+[link-downloads]: https://packagist.org/packages/stanleymsacommon/msacommon
+[link-travis]: https://travis-ci.org/stanleymsacommon/msacommon
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/msacommon
+[link-author]: https://github.com/stanleymsacommon
 [link-contributors]: ../../contributors

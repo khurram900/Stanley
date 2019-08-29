@@ -1,6 +1,6 @@
 <?php
 
-namespace MSACommon\MSACommon\Facades;
+namespace StanleyMSACommon\MSACommon\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

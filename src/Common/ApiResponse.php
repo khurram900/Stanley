@@ -1,6 +1,6 @@
 <?php
 
-namespace MSACommon\MSACommon\Common;
+namespace StanleyMSACommon\MSACommon\Common;
 
 class ApiResponse
 {

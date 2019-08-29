@@ -1,14 +1,14 @@
 <?php
 
 function msacommon_successResponse($results = []){
-    return response()->json((new \MSACommon\MSACommon\Common\ApiResponse())->setResults(
+    return response()->json((new \StanleyMSACommon\MSACommon\Common\ApiResponse())->setResults(
         $results
     )->toArray());
 }
 
 
 function msacommon_errorResponse(){
-    return (new \MSACommon\MSACommon\Common\ApiResponse())->setResults(
+    return (new \StanleyMSACommon\MSACommon\Common\ApiResponse())->setResults(
         $results
     );
 }

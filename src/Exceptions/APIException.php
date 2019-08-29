@@ -1,5 +1,5 @@
 <?php
-namespace MSACommon\MSACommon\Exceptions;
+namespace StanleyMSACommon\MSACommon\Exceptions;
 
 use Exception;
 use Throwable;

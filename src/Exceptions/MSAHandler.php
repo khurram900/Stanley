@@ -1,11 +1,11 @@
 <?php
 
-namespace MSACommon\MSACommon\Exceptions;
+namespace StanleyMSACommon\MSACommon\Exceptions;
 
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
-use MSACommon\MSACommon\Common\ApiResponse;
+use StanleyMSACommon\MSACommon\Common\ApiResponse;
 
 class MSAHandler extends  ExceptionHandler
 {

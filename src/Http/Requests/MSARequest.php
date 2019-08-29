@@ -1,12 +1,12 @@
 <?php
 
-namespace MSACommon\MSACommon\Requests;
+namespace StanleyMSACommon\MSACommon\Requests;
 
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\ValidationException;
-use MSACommon\MSACommon\Common\ApiResponseCodesBook;
-use MSACommon\MSACommon\Exceptions\APIException;
+use StanleyMSACommon\MSACommon\Common\ApiResponseCodesBook;
+use StanleyMSACommon\MSACommon\Exceptions\APIException;
 
 class MSARequest extends FormRequest
 {

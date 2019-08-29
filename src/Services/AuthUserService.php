@@ -1,7 +1,7 @@
 <?php
-namespace MSACommon\MSACommon\Services;
+namespace StanleyMSACommon\MSACommon\Services;
 
-use MSACommon\MSACommon\Clients\AuthUserClient;
+use StanleyMSACommon\MSACommon\Clients\AuthUserClient;
 
 class AuthUserService
 {

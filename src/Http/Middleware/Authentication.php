@@ -1,13 +1,13 @@
 <?php
 
-namespace MSACommon\MSACommon\Http\Middleware;
+namespace StanleyMSACommon\MSACommon\Http\Middleware;
 
 use App\Services\AuthService;
 use Closure;
 use Auth;
-use MSACommon\MSACommon\Common\ApiResponseCodesBook;
-use MSACommon\MSACommon\Exceptions\APIException;
-use MSACommon\MSACommon\Services\AuthUserService;
+use StanleyMSACommon\MSACommon\Common\ApiResponseCodesBook;
+use StanleyMSACommon\MSACommon\Exceptions\APIException;
+use StanleyMSACommon\MSACommon\Services\AuthUserService;
 use View;
 
 class Authentication

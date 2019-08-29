@@ -6,7 +6,7 @@
  * Time: 2:12 AM
  */
 
-namespace MSACommon\MSACommon\Clients;
+namespace StanleyMSACommon\MSACommon\Clients;
 
 use Config;
 

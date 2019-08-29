@@ -1,10 +1,10 @@
 <?php
-namespace MSACommon\MSACommon\Clients;
+namespace StanleyMSACommon\MSACommon\Clients;
 
 use GuzzleHttp\Client as Client;
 use Illuminate\Support\Facades\Request;
-use MSACommon\MSACommon\Common\ApiResponseCodesBook;
-use MSACommon\MSACommon\Exceptions\APIException;
+use StanleyMSACommon\MSACommon\Common\ApiResponseCodesBook;
+use StanleyMSACommon\MSACommon\Exceptions\APIException;
 
 class MicroServiceClient
 {
